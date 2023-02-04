@@ -11,16 +11,18 @@
     *{
         border: 10%;
     }
-    body{
-        border-bottom: 100%;
-    }
+    @media only screen and (max-width: 720px) {
+        body {
+          zoom: 0.8;
+        }
+      }
     .section-bg{
         position: absolute;
         background-image: url(images/b3.jpg);
         left: 0%;
         top: 0%;
         height: 95%;
-        width: 51%;
+        width: 60%;
         background-size: cover;
         
     }
@@ -87,7 +89,7 @@ a {
     </style>
 </head>
 <body>
-    <div class="container p-3 m-3">
+    <div class="container p-3">
         <div class="section-bg"></div>
         <div class="section-padding">
             <div class="container">
