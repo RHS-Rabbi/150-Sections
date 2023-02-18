@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 7</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="asset/magnific-popup.css">
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+.section-title {
+    margin-top: 50px;
+}  
+.section-title h2 {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.section-title h2::before {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background: #14ADF3;
+    content: "";
+    margin-left: -30px;
+    left: 37px;
+    margin-top: 5px;
+}
+.section-title h2::after {
+    bottom: 0;
+    left: 25%;
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #EDEDEE;
+    content: "";
+    margin-left: -30px;
+}
+.staff-list {
+    margin: 40px;
+}
+    </style>
+</head>
+<body>
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="section-title">
+                        <h2 class="text-uppercase">Our Staff</h2>
+                        <p style="color: #A0A0A0;">Typi non habent claritatem insitam est usus legentis in Its qui facit eorum claritatem,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-list">
+                <i class="fa-solid fa-arrow-left m-3 "></i>
+                <i class="fa-solid fa-arrow-right m-3 "></i>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="staff-list"></div>
+                    <div class="single-staff-item">
+                        <img src="Images/marry.png" alt="">
+
+                        <div class="staff-meta">
+                            <h4>MERRY HAN</h4>
+                            <P style="color: #A0A0A0;">Cleaning staff</P>
+                        </div>
+                        <p style="color: #6D6D6D;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="staff-list"></div>
+                    <div class="single-staff-item">
+                        <img src="Images/dan.png" alt="">
+
+                        <div class="staff-meta">
+                            <h4>DAN BROWN</h4>
+                            <P style="color: #A0A0A0;">Cleaning staff</P>
+                        </div>
+                        <p style="color: #6D6D6D;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="staff-list"></div>
+                    <div class="single-staff-item">
+                        <img src="Images/miky.png" alt="">
+
+                        <div class="staff-meta">
+                            <h4>MIKY JANES</h4>
+                            <P style="color: #A0A0A0;">Cleaning staff</P>
+                        </div>
+                        <p style="color: #6D6D6D;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="staff-list"></div>
+                    <div class="single-staff-item">
+                        <img src="Images/miky2.png" alt="">
+
+                        <div class="staff-meta">
+                            <h4>JENNY DEP</h4>
+                            <P style="color: #A0A0A0;">Cleaning staff</P>
+                        </div>
+                        <p style="color: #6D6D6D;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="practice.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="asset/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
