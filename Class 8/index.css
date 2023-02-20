@@ -1,0 +1,74 @@
+a:hover{
+    text-decoration: none;
+}
+.grey-bg{
+    background: #F9F9F9;
+}
+body{
+
+}
+.service-bg-1{
+    background-image: url(image/bus-i.png);
+}
+.service-bg-2{
+    background-image: url(image/boat.png);
+}
+.service-bg-3{
+    background-image: url(image/life.png);
+}
+.service-bg-4{
+    background-image: url(image/house.png);
+}
+section.section-padding.grey-bg {
+    padding: 70px;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    font-size: 30px;
+    color: #333;
+}
+.single-list-item {
+    background: #ffffff;
+}
+.service-bg{
+    padding: 80px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+}
+.service-content{
+    padding: 10px;
+}
+
+body {
+    color: #9B9B9B;
+}
+.h3, h3 {
+    font-size: 26px;
+}
+.service-content h3{
+    color: #333;
+}
+
+a {
+    display: inline-block;
+    color: #2ECC71;
+    padding: 10px 0px;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+i.fa.fa-long-arrow-right {
+    padding: 5px;
+}
+a:hover{
+    background: #2ECC71;
+    color: #fff;
+    padding: 10px 20px;
+    transition: .3s;
+}
+.single-list-item:hover {
+    box-shadow: 0 10px 10px #E9F6EF;
+}
