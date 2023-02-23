@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Carousel</title>
+    <title>Class 9</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
@@ -38,8 +39,44 @@ span.black-border {
     text-align: center;
     margin-bottom: 60px;
 }
+.single-testimonial-item {
+    box-shadow: 0 0 2px #EAECE8;
+    margin: 2px;
+    padding: 20px;
+}
 
-
+.single-testimonial-item h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.single-testimonial-item span{
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+i.fa-solid.fa-quote-left {
+    color: #779525;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    font-size: 20px;
+    line-height: 30px;
+    margin: -15px;
+}
+i.fa-solid.fa-quote-left::after {
+    position: absolute;
+    left: 50px;
+    height: 100px;
+    width: 1px;
+    background: #EAECE8;
+    content: "";
+    top: -22px;
+}
+.single-testimonial-item{
+    position: relative;
+    padding-left: 80px;
+}
     </style>
 </head>
 
@@ -63,28 +100,28 @@ span.black-border {
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="single-testimonial-item">
-                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque? Dicta ipsa voluptatibus cupiditate animi maiores consectetur quia sint aliquam?</p>
+                                <i class="fa-solid fa-quote-left"></i>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque? Dicta ipsa voluptatibus cupiditate animi maiores </p>
                              <h3>Rabbi Hossain</h3>
                              <span>Student</span>
                             </div>
                         </div>
                         <div class="item">
                             <div class="single-testimonial-item">
-                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque? Dicta ipsa voluptatibus cupiditate animi maiores consectetur quia sint aliquam?</p>
+                                <i class="fa-solid fa-quote-left"></i>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque? Dicta ipsa voluptatibus cupiditate animi maiores </p>
                              <h3>Hridoy Hossain</h3>
                              <span>Student</span>
                             </div>
                         </div>
                         <div class="item">
                             <div class="single-testimonial-item">
-                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque? Dicta ipsa voluptatibus cupiditate animi maiores consectetur quia sint aliquam?</p>
+                                <i class="fa-solid fa-quote-left"></i>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, atque? Dicta ipsa voluptatibus cupiditate animi maiores </p>
                              <h3>Sawon Hossain</h3>
                              <span>Student</span>
                             </div>
                         </div>
-                        <div class="item" data-dot=""></div>
-                        <div class="item" data-dot=""></div>
-                        <div class="item" data-dot=></div>
                     </div>
                 </div>       
             </div>
@@ -103,21 +140,24 @@ span.black-border {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- custom JS code after importing jquery and owl -->
     <script type="text/javascript">
-        // $(document).ready(function() {
-        //     $(".owl-carousel").owlCarousel();
-        // });
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
 
         $('.owl-carousel').owlCarousel({
         loop: true,
         margin:30,
-        nav:true,
-        items: 4,
+        nav:false,
+        items: 3,
         dots: true,
         
         
  
 })
-
+$('.owl-carousel').find('.owl-nav').removeClass('disabled');
+$('.owl-carousel').on('changed.owl.carousel', function(event) {
+	$(this).find('.owl-nav').removeClass('disabled');
+});
     </script>
 </body>
 </html>  
