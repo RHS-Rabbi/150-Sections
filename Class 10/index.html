@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="practice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header-top-area">
@@ -43,7 +52,7 @@
     <div class="home-page-slider-wrap">
         <div class="home-page-slides">
             <div class="single-slid-item">
-                <img class="w-75" src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <img class="" src="Images/women.png" alt="">
                 <div class="slide-text-table">
                     <div class="slide-text-tablecell">
                         <p>New</p>
@@ -57,9 +66,9 @@
 
     <ul class="big-menu">
         <li><a href="">Spring</a></li>
-        <li><a href="">Summer</a></li>
-        <li><a href="">Autmn</a></li>
-        <li><a href="">Winter</a></li>
+        <li ><a href="">Summer</a></li>
+        <li ><a href="">Autmn</a></li>
+        <li ><a href="">Winter</a></li>
     </ul>
     <div class="product-area">
         <div class="container">
@@ -284,7 +293,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="promo-bg">
-                                        <img class="w-100" src="https://images.pexels.com/photos/9603489/pexels-photo-9603489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                                        <img class="w-100" src="Images/women-2.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-7">
@@ -308,12 +317,8 @@
                         </div>
                     </div>
                     <div class="brand-images">
-                        <img src="Images/brand-1.png" alt="">
-                        <img src="Images/brand-2.png" alt="">
-                        <img src="Images/brand-3.png" alt="">
-                        <img src="Images/brand-4.png" alt="">
-                        <img src="Images/brand-5.png" alt="">
-                        <img src="Images/brand-6.png" alt="">
+                        <img src="Images/brand0.png" alt="">
+                        
                     </div>
                 </div>
             </div>
@@ -354,11 +359,12 @@
 
 
     <!--Jquery -->
+    <script src="jquery-masonry.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <!-- Owl Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- custom JS code after importing jquery and owl -->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         $(document).ready(function() {
             $(".owl-carousel").owlCarousel();
         });
@@ -367,18 +373,11 @@
             loop: true,
             margin: 10,
             nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
-            }
-        }) -->
+            
+        })
+        $(".product-list").masonry{
+            
+        }
     </script>
 </body>
 </html>  
