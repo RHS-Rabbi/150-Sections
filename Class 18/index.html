@@ -10,26 +10,169 @@
     />
     <link rel="stylesheet" href="practice.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <style>
+        body{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.714;
+    color: #626262;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.blog-meta,.blog-read-more-btn{
+font-weight:300;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.main-menu li a {
+    display: block;
+    text-transform: uppercase;
+    color: #626262;
+    padding: 70px 0;
+}
+
+
+.logo {
+    padding: 70px 0;
+}
+.blog-featured-content img {
+    width: 100%;
+}
+.single-blog-item {
+    margin-bottom: 120px;
+    color: #626262;
+}
+.blog-featured-content img {
+    width: 100%;
+}
+
+.single-blog-item {
+    margin-bottom: 120px;
+    color: #626262;
+}
+
+.blog-meta a {
+    text-transform: uppercase;
+    color: #B5B4A7;
+}
+
+.single-blog-item h2 {margin: 20px 0 25px;}
+.blog-read-more-btn {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #626262;
+}
+
+.blog-box-content{
+    margin-bottom: 30px;
+}
+.blog-box-content p:last-child{
+    margin: 0;
+}
+
+.news-letter-area {
+    text-align: center;
+    padding: 70px 0;
+    background: #F0F0F0;
+}
+.news-letter-area {
+    text-align: center;
+    padding: 70px 0;
+    background: #F0F0F0;
+    margin-bottom: 50px;
+}
+
+.news-letter-area h2 {
+    margin-bottom: 50px;
+}
+
+.news-letter-form {max-width: 350px;margin: 0 auto;border-bottom: 1px solid #040404;position: relative;}
+
+.news-letter-form input[type=email] {
+    background: #F0F0F0;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.news-letter-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 10px;
+}
+.load-more-btn-wraper {
+    display: inline-block;
+    border: 1px solid #6F6F6F;
+    font-size: 20px;
+    padding: 15px 41px;
+}
+.footer-area {
+    background: #F0F0F0;
+    padding: 35px 0;
+    margin-top: 90px;
+}
+
+.footer-area a {
+    color: #000;
+}
+
+.footer-area li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+/* .footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+.footer-area .text-right a {
+    padding-left: 40px;
+}
+    </style>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="logo">
-                    <a href="index.html"><img src="Images/logo.png" alt=""></a>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="logo">
+                        <a href="index.html"><img src="Images/logo.png" alt=""></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-7">
-                <div class="main-menu">
-                    <ul>
-                        <li><a href="">Lifestyle</a></li>
-                        <li><a href="">PhotoDiary</a></li>
-                        <li><a href="">Lifestyle</a></li>
-                        <li><a href="">Lifestyle</a></li>
-                    </ul>
+                <div class="col-md-7">
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="">Lifestyle</a></li>
+                            <li><a href="">PhotoDiary</a></li>
+                            <li><a href="">Lifestyle</a></li>
+                            <li><a href="">Lifestyle</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </div>   
+            </div>   
             <div class="row">
                 <div class="col-md-12">
                     <div class="single-blog-item">
@@ -46,9 +189,149 @@
                         <div class="blog-box-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                         </div>
-                        <a href="" class="read-more-btn">Leave a comment</a>
+                        <a href="" class="blog-read-more-btn">Leave a comment</a>
                     </div>
+            </div> 
+            
+            <div class="row">
+                <div class="col-md-8 offset-md-1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="single-blog-item">
+                                <div class="blog-featured-content">
+                                    <a href=""><img src="Images/blog-3.jpg" alt=""></a>
+                                </div>
+                                <p class="blog-meta"><a href="">PhotoDiary</a></p>
+                                <h2>The perfect weekend getaway</h2>
+                                <div class="blog-box-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-blog-item">
+                                <div class="blog-featured-content">
+                                    <a href=""><img src="Images/blog-4.jpg" alt=""></a>
+                                </div>
+                                <p class="blog-meta"><a href="">PhotoDiary</a></p>
+                                <h2>The perfect weekend getaway</h2>
+                                <div class="blog-box-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-blog-item">
+                                <div class="blog-featured-content">
+                                    <a href=""><img src="Images/blog-5.jpg" alt=""></a>
+                                </div>
+                                <p class="blog-meta"><a href="">PhotoDiary</a></p>
+                                <h2>The perfect weekend getaway</h2>
+                                <div class="blog-box-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-blog-item">
+                                <div class="blog-featured-content">
+                                    <a href=""><img src="Images/blog-6.jpg" alt=""></a>
+                                </div>
+                                <p class="blog-meta"><a href="">PhotoDiary</a></p>
+                                <h2>The perfect weekend getaway</h2>
+                                <div class="blog-box-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
+    </div>
+     <!-- neew-letter-area -->
+     <div class="news-letter-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <h2>Sign up for our newsletter!</h2>
+                    <div class="news-letter-form">
+                        <form action="index.html">
+                            <input type="email" placeholder="Enter valid email address" name="" id="">
+                            <button><img src="Images/send-icon.png" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- neew-letter-area ends -->
+
+    <div class="section-padding">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-8 offset-md-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="single-blog-item">
+                            <div class="blog-featured-content">
+                                <a href=""><img src="Images/blog-7.jpg" alt=""></a>
+                            </div>
+                            <p class="blog-meta"><a href="">Lifestyle</a></p>
+                            <h2>More than just a music festival </h2>
+                            <div class="blog-box-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="single-blog-item">
+                            <div class="blog-featured-content">
+                                <a href=""><img src="Images/blog-8.jpg" alt=""></a>
+                            </div>
+                            <p class="blog-meta"><a href="">Lifestyle</a></p>
+                            <h2>Life tastes better with coffee</h2>
+                            <div class="blog-box-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="load-more-btn-wraper">
+                            <a style="color: #5E5E5E;" class="" href="" class="load-more-btn">Load More</a>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 offset-md-1">
+                    <ul>
+                        <li><a href="">Terms of Conditions</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-right">
+                    Follow <a href=""><i class="fa-brands fa-facebook-f"></i></a> <a href=""><i class="fa-brands fa-twitter"></i></a> <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 
 
