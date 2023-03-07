@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 27</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+.section-padding {
+    padding: 60px 0;
+}
+
+.projects-title {
+    margin: 0 0 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.projects-title li {
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.single-projects-item a,.single-projects-item span {
+    color: #00d8d3;
+}
+
+
+.single-projects-item{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: #323232;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+.project-hover a {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 20px;
+}
+
+.project-hover h4 {
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.project-hover span {
+    display: block;
+    font-size: 80%;
+    margin-top: 10px;
+}
+
+.project-hover {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: .3s;
+}
+.single-projects-item:hover .project-hover{
+    opacity: 1;
+}
+
+.project-hover::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .6;
+}
+.row.projects-list .col-md-4 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.row.projects-list {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.project-bg-1{
+    background-image: url(images/class29.1.png);
+    
+}
+.project-bg-2{
+    background-image: url(images/class.29.2.png);
+}
+.project-bg-3{
+    background-image: url(images/class.29.3.png);
+}
+.project-bg-4{
+    background-image: url(images/class29.4.jpg);
+}
+.project-bg-5{
+    background-image: url(images/class29.5.png);
+}
+.project-bg-6{
+    background-image: url(images/class29.6.png);
+}
+.project-bg-7{
+    background-image: url(images/class29.7.png);
+}
+.project-bg-8{
+    background-image: url(images/class29.8.png);
+}
+.project-bg-9{
+    background-image: url(images/class29.9.png);
+}
+
+.row .projects-list .col-md-4:nth-child(2) .single-projects-item{height: 585px;}
+
+.row .projects-list .col-md-4:nth-child(4) .single-projects-item{height: 585px;}
+
+.row .projects-list .col-md-4:nth-child(6) .single-projects-item{height: 585px;}
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="projects-title">
+                        <li data-filter="*">All</li>
+                        <li data-filter=".Web">Web</li>
+                        <li data-filter=".Graphic">Graphic</li>
+                        <li data-filter=".Photo">Photo</li>
+                        <li data-filter=".Design">Design</li>
+                    </ul>
+
+                    <div class="row projects-list">
+                        <div class="col-md-4 web">
+                            <div class="single-projects-item project-bg-1">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 graphic web">
+                            <div class="single-projects-item project-bg-2">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 design">
+                            <div class="single-projects-item project-bg-3">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 photo design web">
+                            <div class="single-projects-item project-bg-4">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 photo">
+                            <div class="single-projects-item project-bg-5">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 web photo">
+                            <div class="single-projects-item project-bg-6">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 graphic">
+                            <div class="single-projects-item project-bg-7">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 all photo">
+                            <div class="single-projects-item project-bg-8">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 photo all design">
+                            <div class="single-projects-item project-bg-9">
+                                <div class="project-hover">
+                                    <a href=""><i class="fa fa-link"></i></a>
+                                    <h4> Project Title <span>Art work</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="isotope.pkgd.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".projects-list").isotope();
+        });
+
+       
+
+        
+        $(".projects-titles li").on('click',function() {
+        var selector = $(this) .attr('data-filter');
+        $(".projects-list").isotope({
+        filter: selector
+        });
+        })
+
+
+         
+       
+    </script>
+</body>
+</html>  
