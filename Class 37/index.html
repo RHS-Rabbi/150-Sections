@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 37</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+.team-bg-1{
+    background-image: url(Images/class37.png);
+}
+.team-bg-2{
+    background-image: url(Images/class37-2.png);
+}
+.team-bg-3{
+    background-image: url(Images/class37-3.png);
+}
+.section-title {
+    position: relative;
+    text-align: right;
+    font-size: 32px;
+    font-weight: 700;
+    transform: rotate(270deg);
+    margin-top: 81px;
+}
+
+.section-title::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1px;
+    width: 75%;
+    content: "";
+    background: #000;
+}
+.team-bg-1,.team-bg-2,.team-bg-3 {
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-bottom: 50px ;
+}
+.bordered-content {
+    border: 1px solid #b2b2b2;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.bordered-content h3 {
+    font-size: 26px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+.team-tittle {
+    margin-top: -15px;
+}
+.col-md-4:nth-child(2) .single-team-member{
+    margin-top: 100px;
+}
+.section-padding {
+    padding: 80px 0;
+}
+    </style>
+</head>
+
+<body>
+     <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="section-title">
+                        <h2>OUR TEAM</h2>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="single-team-member">
+                                <div class="team-bg-1"></div>
+                                <div class="bordered-content">
+                                    <div class="team-tittle"><h3>Sara Parker</h3></div>
+                                    <p>web devoloper</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-team-member">
+                                <div class="team-bg-2"></div>
+                                <div class="bordered-content">
+                                    <div class="team-tittle"><h3>Sara Parker</h3></div>
+                                    <p>web devoloper</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-team-member">
+                                <div class="team-bg-3"></div>
+                                <div class="bordered-content">
+                                    <div class="team-tittle"><h3>Sara Parker</h3></div>
+                                    <p>web devoloper</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        }) -->
+    </script>
+</body>
+</html>  
