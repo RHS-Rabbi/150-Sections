@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 36</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+body {
+    background: #f5f6fa;
+}
+
+.promo-box-wrap {
+    margin-left: -15px;
+    overflow: hidden;
+    display: table;
+    text-align: center;
+}
+
+.single-promo-box {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+.single-promo-box:nth-child(2){
+    background: #da879b;
+    color: #fff;
+}
+.single-promo-box:nth-child(3){
+    background: #7bbacf;
+    color: #fff;
+}
+.promo-box-tablecell {
+    display: block;
+    margin-top: 30px;
+}
+.single-promo-box h3 {
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+    padding-bottom: 4px;
+   
+}
+a.boxed-btn {
+    background: #7bbacf;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+/* .single-promo-box:after {
+    position: absolute;
+    left: 130px;
+    height: 2px;
+    width: 50px;
+    content: "";
+    background: #da879b;
+    margin-left: 5px;
+    margin-top: -68px;
+} */
+.promo-box-tablecell {
+    padding-top: 45px;
+    transition: .3s;
+}
+.single-promo-box:hover .promo-box-tablecell {
+    padding-top: 0;
+}
+.single-promo-box:hover a.boxed-btn{
+    opacity: 1;
+    visibility: visible;
+}
+a.boxed-btn{
+    background-color: #fff;
+    color: #333;
+}
+.right-side {
+    padding: 80px 0;
+    margin: 30px;
+}
+
+
+
+.section-title h3 {
+    font-size: 25px;
+    font-family: -webkit-body;
+    color: #7dbbcf;
+}
+
+.section-title h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h5 {
+    line-height: 40px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #8f8c8b;
+}
+
+.section-btn {
+    display: block;
+    margin-top: 50px;
+}
+
+a.boxeds-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #7bbacf;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a.bordered-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #7bbacf;
+    color: #7bbacf;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+a.bordered-btn:hover{
+    background-color: #7bbacf;
+    color: #fff;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="fullweight-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="promo-box-wrap">
+                        <div class="single-promo-box">
+                            <div class="promo-box-tablecell">
+                                <i class="promo-icon"><img class="w-25" src="Images/class36-1.png" alt=""></i>
+                                <h3>Medi SPA &amp; Massage</h3>
+                                <a class="boxed-btn" href="">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="single-promo-box">
+                            <div class="promo-box-tablecell">
+                                <i class="promo-icon"><img class="w-25" src="Images/class36-1.png" alt=""></i>
+                                <h3>Medi SPA &amp; Massage</h3>
+                                <a class="boxed-btn" href="">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="single-promo-box">
+                            <div class="promo-box-tablecell">
+                                <i class="promo-icon"><img class="w-25" src="Images/class36-1.png" alt=""></i>
+                                <h3>Medi SPA &amp; Massage</h3>
+                                <a class="boxed-btn" href="">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="single-promo-box">
+                            <div class="promo-box-tablecell">
+                                <i class="promo-icon"><img class="w-25" src="Images/class36-1.png" alt=""></i>
+                                <h3>Medi SPA &amp; Massage</h3>
+                                <a class="boxed-btn" href="">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-side">
+                       <div class="section-title">
+                            <h3>About us</h3>
+                            <h2>A few words about us</h2>
+                       </div>
+                       <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat alias incidunt libero.</h5>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo possimus voluptatibus sit quisquam recusandae esse commodi ratione ipsam assumenda aspernatur quaerat quae labore similique, aliquam soluta vero veritatis eius!</p>
+
+                       <div class="section-btn">
+                            <a class="boxeds-btn" href="">view all server</a>
+                            <a class="bordered-btn" href="">Learn more</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        }) -->
+    </script>
+</body>
+</html>  
