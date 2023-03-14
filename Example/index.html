@@ -141,15 +141,13 @@ span.complete {
 .border-item.p-3 {
     margin-top: 20px;
 }
-a li :hover{
-    background: #E8F1F8;
-}
+
 
 
 .section-padding-2{
     background: #333333;
     color: #fff;
-    padding: 80px 0;
+    padding: 30px 0;
     margin: 0;
 }
 .footer-title {
@@ -166,7 +164,54 @@ a li :hover{
     text-decoration: none;
     color: #f3f1f1;
 }
-    
+i.fa-solid.fa-gauge.text-white.fa-2x {
+    margin-right: 20px;
+    font-size: 20px;
+}
+.icon-style ul {
+    list-style: none;
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 0;
+}
+.icon-style {
+    border-right: 1px solid #cdcfd5;
+    margin-top: -8px;
+    margin-right: 32px;
+}
+button li a {
+    color: #000;
+    padding: 12px 64px;
+}
+
+button li a:hover {
+    background: aliceblue;
+    color: #000;
+}
+hr.hr-2 {
+    width: 324px;
+}  
+button.active li a {
+    background: #1e87d2;
+    color: #fff;
+    padding: 12px 60px;
+}
+button.active li a:hover {background: #155e96;color: #fff;}
+.tutor-round {
+    background: #e8f1f8;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #1e87d2;
+    padding-top: 10px;
+}
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 2px;
+}
     </style>
 </head>
 
@@ -215,21 +260,22 @@ a li :hover{
             <div class="row">
               <div class="col-md-4">
                 <div class="icon-style">
-                  <ul>
-                   <button style="background: #155e96;" class=""><a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                    <hr>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                   <button> <a href=""><li><i class="fa fa-solid fa-user"></i> Dashboard</li></a></button>
-                  </ul>
+                    <ul>
+                        <button class="active"><li><a href=""><i class="fa-solid fa-gauge"></i> Dashboard</li></a></li></button>
+                        <button><li><a href=""><i style="color: #1d73be;" class="fa-solid fa-user"></i> My Profile</li></a></li></button>
+                        <button><li><a href=""><i style="color: #1d73be;" class="fa-solid fa-graduation-cap"></i> Enrolled</li></a></li></button>
+                        <button><li><a href=""><i style="color: #1d73be;" class="fa-solid fa-star"></i> Reviews</li></a></li></button>
+                        <button><li><a href=""><i style="color: #1d73be;" class="fa-solid fa-envelope"></i> My Quiz</li></a></li></button>
+                        <button><li><a href=""><i style="color: #1d73be;" class="fa-solid fa-cart-shopping"></i> Order</li></a></li></button>
+                        <button><li><a href=""><i style="color: #1d73be;" class="fa-solid fa-question"></i> Question</li></a></li></button>
+                        <button><li><a href=""><i style="color: #1d73be;" class="fa-solid fa-list"></i> Wish list</li></a></li></button>
+                         <hr class="hr-2">
+                        <button>  <li><a href=""><i style="color: #1d73be;" class="fa-solid fa-gear"></i> Setting</li></a></li></button>
+                        <button>  <li><a href=""><i style="color: #1d73be;" class="fa-solid fa-right-from-bracket"></i>Log out</li></a></li></button>
+                       </ul>
+                 </div>
                 </div>
-              </div>
+                
 
               <div class="col-md-8">
                     <div class="section-padding">
@@ -242,7 +288,7 @@ a li :hover{
                           <div class="card-item">
                             <div class="tutotor-text">
                               <div class="tutor-round">
-                                <i class="fa fa-solid fa-user"></i>
+                                <i class="fa-solid fa-book"></i>
                               </div>
                               <h4>2</h4>
                               <p>Enrolled Courses</p>
@@ -253,7 +299,7 @@ a li :hover{
                           <div class="card-item">
                             <div class="tutotor-text">
                               <div class="tutor-round">
-                                <i class="fa fa-solid fa-user"></i>
+                                <i class="fa-solid fa-graduation-cap"></i>
                               </div>
                               <h4>2</h4>
                               <p>Enrolled Courses</p>
@@ -264,7 +310,7 @@ a li :hover{
                           <div class="card-item">
                             <div class="tutotor-text">
                               <div class="tutor-round">
-                                <i class="fa fa-solid fa-user"></i>
+                                <i class="fa-solid fa-trophy"></i>
                               </div>
                               <h4>2</h4>
                               <p>Enrolled Courses</p>
@@ -319,7 +365,7 @@ a li :hover{
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i> 5.00
+                                        <i class="fas fa-star-half-stroke"></i> 5.00
                                       </div>
                                       <div class="progress-course-title">
                                         <h5>Laravel - Basic to Project Development</h5>
