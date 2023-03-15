@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 39</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+.gradient-overlay-wraper{
+    background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.gradient-overlay-wraper::after{
+    background: #211466;
+background: -moz-linear-gradient(-45deg,  #211466 1%, #ddb1c6 100%);
+background: -webkit-linear-gradient(-45deg,  #211466 1%,#ddb1c6 100%);
+background: linear-gradient(135deg,  #211466 1%,#ddb1c6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211466', endColorstr='#ddb1c6',GradientType=1 );
+
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    opacity: .9;
+
+}
+.main-menu ul {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    color: #fff;
+    opacity: .5;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+}
+.main-menu li a:hover{
+    opacity: 1;
+}
+.header-area {
+    position: relative;
+    z-index: 1;
+    padding: 20px 0;
+}
+
+.header-area::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    content: "";
+    background: #fff;
+    opacity: .1;
+}
+
+.main-menu {
+    padding: 12px;
+}
+img.mobile-display {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.hero-text {
+    max-width: 450px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.8;
+    padding-top: 200px;
+    padding-bottom: 130px;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.hero-text p {
+    opacity: .6;
+}
+.hero-button {
+    margin-top: 50px;
+    
+}
+
+a.bordered-btn {
+    border: 1px solid #fffeff;
+    text-decoration: none;
+}
+
+.hero-button a {
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+}
+
+a.underline-btn {
+    text-decoration: underline;
+}
+img.mobile-display {
+    
+    padding-right: 120px;
+}
+    </style>
+</head>
+
+<body>
+   <div class="gradient-overlay-wraper">
+        <div class="header-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="" class="logo"><img src="Images/class39-2.png" alt=""></a>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Home</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="hero-text">
+                            <h1>Lorem ipsum dolor, sit amet consectetur</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quas placeat nostrum ullam explicabo maxime dolore accusamus veniam, magni cumque adipisci facilis delectus? Neque, quod officiis doloremque atque distinctio quos.</p>
+    
+                            <div class="hero-button">
+                                <a href="" class="bordered-btn">Reach out at us</a>
+                                <a href="" class="underline-btn">Learn more</a>
+                            </div>
+                        </div>
+                        <img src="Images/class39-3 (1).png" alt="" class="mobile-display">
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+
+   
+
+  
+      
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            // margin: 10,
+            nav: true,
+            items:1,
+            dot:true,
+            
+        })
+    </script> -->
+</body>
+</html>  
