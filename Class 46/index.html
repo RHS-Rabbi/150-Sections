@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 46</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <style>
+.section-padding.dark-bg {
+    background: #2c2c2c;
+    color: #8a8a8a;
+}
+
+.tailor-text {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.tailor-text h2 {
+    font-size: 27px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+a.bordered-btn {
+    display: inline-block;
+    border: 2px solid #de4a47;
+    text-decoration: none;
+    color: #dddddd;
+    padding: 8px 15px;
+    width: 170px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+a.bordered-btn i.fa-solid {
+    float: right;
+    padding-top: 8px;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.color-pricing-box {
+    position: absolute;
+    right: 140px;
+    background: #ff4f4c;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    height: 300px;
+}
+
+.color-pricing-box p {
+    opacity: .9;
+}
+
+.color-pricing-box p.pricing-text {
+    color: #fff;
+}
+
+
+p.price-text {
+    color: #fff;
+    opacity: 1;
+}
+
+.tailor-info img {
+    position: relative;
+    padding-top: 100px;
+    z-index: 1;
+}
+div.owl-carousel .owl-item img{
+    width: auto;
+    display: inline-block;
+}
+button.owl-dot:nth-child(1)::before {
+    content: "01";
+}
+button.owl-dot:nth-child(2)::before{
+    content: "02";
+}
+button.owl-dot:nth-child(3)::before{
+    content: "03";
+}
+
+.owl-dots {
+    border-left: 2px solid #444;
+    padding: 20px 15px;
+    position: absolute;
+    right: -65px;
+    top: 30%;
+    line-height: 60px;
+}
+button.owl-dot {
+    display: block;
+}
+.owl-carousel.owl-dots{
+    position: absolute;
+}
+
+
+button.owl-dot.active {
+    color: #dc4946;
+}
+i.fa-solid{
+    color: #222;
+    font-size: 20px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="section-padding dark-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <div class="single-tailor-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="tailor-text">
+                                            <h2>Lorem ipsum <br> consectetur adipisicing</h2>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos quam, dolores ea expedita ducimus mollitia qui repellat optio aperiam facilis!</p>
+                                            <a href="" class="bordered-btn">See more <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 offset-md-1">
+                                        <div class="tailor-info">
+                                            <div class="color-pricing-box">
+                                                <p>price</p>
+                                                <p style="color:#fff;font-size: 30px;" class="price-text">$10,999</p>
+                                                <a href="" class="absolute-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                            </div>
+                                            <img class="w-100" src="images/class46-5.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="single-tailor-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="tailor-text">
+                                            <h2>Lorem ipsum <br> consectetur adipisicing</h2>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos quam, dolores ea expedita ducimus mollitia qui repellat optio aperiam facilis!</p>
+                                            <a href="" class="bordered-btn">See more <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 offset-md-1">
+                                        <div class="tailor-info">
+                                            <div class="color-pricing-box">
+                                                <p>price</p>
+                                                <p style="color:#fff;font-size: 30px;" class="price-text">$10,999</p>
+                                                <a href="" class="absolute-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                            </div>
+                                            <img class="w-100" src="images/class46-4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single-tailor-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="tailor-text">
+                                            <h2>Lorem ipsum <br> consectetur adipisicing</h2>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos quam, dolores ea expedita ducimus mollitia qui repellat optio aperiam facilis!</p>
+                                            <a href="" class="bordered-btn">See more <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 offset-md-1">
+                                        <div class="tailor-info">
+                                            <div class="color-pricing-box">
+                                                <p>price</p>
+                                                <p style="color:#fff;font-size: 30px;" class="price-text">$10,999</p>
+                                                <a href="" class="absolute-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                            </div>
+                                            <img class="w-100" src="images/class46-5.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+      
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            // margin: 10,
+            nav: false,
+            items:1,
+            dot:true,
+            
+        })
+    </script>
+</body>
+</html>  
