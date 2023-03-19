@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 48</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <style>
+.pricing-table {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.single-pricing-box {
+    width: 33.33333%;
+    float: left;
+    box-shadow: 0 0 10px #f4f4f4;
+    /* padding: 10px; */
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    margin-top: 30px;
+}
+
+.single-pricing-box.design {
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    width: 34.3333%;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+body {color: #737678;font-size: 18px;line-height: 1.7;}
+
+.pricing-heading h4 {
+    color: #888888;
+    font-weight: 300;
+    font-size: 30px;
+}
+.pricing-heading h1 {
+    color: #333;
+    font-size: 50px;
+    font-weight: 400;
+}
+.pricing-heading {
+    color: #838888;
+    font-size: 18px;
+    padding: 40px;
+    background: #f9f9f9;
+}
+
+.pricing-content {
+    padding: 60px;
+}
+
+.pricing-content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 35px;
+}
+
+a.bored-btn {
+    display: inline-block;
+    border: 1px solid #fd869c;
+    color: #fd869c;
+    font-weight: 600;
+    padding: 8px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.design .pricing-heading {
+    background: #fc103c;
+    color: #fff;
+    margin-top: 0px;
+}
+.design .pricing-heading h1 ,.design .pricing-heading h4{
+    color: #fff;
+}
+.section-padding{
+    padding: 60px 0;
+}
+.single-pricing-box.design .pricing-content {
+    padding: 73px 60px;
+}
+.single-pricing-box.design::after {
+    content: "Featured";
+    top: 20px;
+    right: -30px;
+    color: #fc103c;
+    background: #fff;
+    position: absolute;
+    transform: rotate(40deg);
+    padding: 5px 50px;
+    font-size: 15px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="pricing-table">
+                        <div class="single-pricing-box">
+                            <div class="pricing-heading">
+                                <h4>Basic</h4>
+                                <h1>Free</h1>
+                                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing.</p>
+                            </div>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>one time free</li>
+                                    <li>one one listing</li>
+                                    <li>Life time availability</li>
+                                    <li>Featured in search buttons</li>
+                                    <li>24/7 support</li>
+                                </ul>
+
+                                <a href="" class="bored-btn">Get more</a>
+                            </div>
+                        </div>
+                        <div class="single-pricing-box design">
+                            <div class="pricing-heading">
+                                <h4>Basic</h4>
+                                <h1>Free</h1>
+                                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing.</p>
+                            </div>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>one time free</li>
+                                    <li>one one listing</li>
+                                    <li>Life time availability</li>
+                                    <li>Featured in search buttons</li>
+                                    <li>24/7 support</li>
+                                </ul>
+
+                                <a href="" class="bored-btn">Get more</a>
+                            </div>
+                        </div>
+                        <div class="single-pricing-box">
+                            <div class="pricing-heading">
+                                <h4>Basic</h4>
+                                <h1>Free</h1>
+                                <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing.</p>
+                            </div>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>one time free</li>
+                                    <li>one one listing</li>
+                                    <li>Life time availability</li>
+                                    <li>Featured in search buttons</li>
+                                    <li>24/7 support</li>
+                                </ul>
+
+                                <a href="" class="bored-btn">Get more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            // margin: 10,
+            nav: true,
+            items:1,
+            dot:true,
+            
+        })
+    </script> -->
+</body>
+</html>  
