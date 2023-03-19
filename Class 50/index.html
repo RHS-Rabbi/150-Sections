@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 50</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <style>
+.bg-1{
+    background-image: url(Images/class50.jpg);
+}
+.bg-2{
+    background-image: url(Images/class50-2.jpg);
+}
+.bg-3{
+    background-image: url(Images/class50-3.jpg);
+}
+.bg-4{
+    background-image: url(Images/class50-4.jpg);
+}
+.bg-5{
+    background-image: url(Images/class50-5.jpg);
+}
+
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.single-listing-box {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #ddd;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.single-listing-box::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #333;
+    z-index: -1;
+    opacity: .4;
+
+}
+.listing-hover {
+    position: absolute;
+    left: 10%;
+    width: 60%;
+    bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.listing-hover h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+}
+a.bordered-btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #b9bbc0;
+    padding: 8px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.owl-carousel .owl-stage-outer{
+    overflow: inherit;
+}
+.section-padding.listing-carousel-wrapper {
+    overflow-x: hidden;
+}
+.owl-carousel{
+    position: relative;
+}
+.owl-carousel::before, .owl-carousel::after {
+    position: absolute;
+    left: -500%;
+    top: 0;
+    width: 500%;
+    height: 100%;
+    content: "";
+    background: #fff;
+    z-index: 1;
+    opacity: .7;
+}
+.owl-carousel::after{
+    left: auto;
+    right: -500%;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="section-padding listing-carousel-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>Popular Categories</h2>
+                        <p>Browse<span>browse the most desirable Categories</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                       <div class="single-listing-box bg-1">
+                            <div class="listing-hover">
+                                <h3>Eats &amp; drinks</h3>
+                                <p>130 Listing</p>
+
+                                <a href="" class="bordered-btn">Browse</a>
+                            </div>
+                       </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="single-listing-box bg-2">
+                             <div class="listing-hover">
+                                 <h3>Eats &amp; drinks</h3>
+                                 <p>130 Listing</p>
+ 
+                                 <a href="" class="bordered-btn">Browse</a>
+                             </div>
+                        </div>
+                     </div>
+                    <div class="item">
+                       <div class="single-listing-box bg-3">
+                            <div class="listing-hover">
+                                <h3>Eats &amp; drinks</h3>
+                                <p>130 Listing</p>
+
+                                <a href="" class="bordered-btn">Browse</a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-listing-box bg-4">
+                             <div class="listing-hover">
+                                 <h3>Eats &amp; drinks</h3>
+                                 <p>130 Listing</p>
+ 
+                                 <a href="" class="bordered-btn">Browse</a>
+                             </div>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="single-listing-box bg-5">
+                             <div class="listing-hover">
+                                 <h3>Eats &amp; drinks</h3>
+                                 <p>130 Listing</p>
+ 
+                                 <a href="" class="bordered-btn">Browse</a>
+                             </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+      
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            items:3,
+            dot:true,
+            
+        })
+    </script>
+</body>
+</html>  
