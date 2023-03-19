@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 49</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <style>
+.section-padding {
+    padding: 100px 0;
+}
+
+body {
+    font-size: 18px;
+    line-height: 2;
+}
+
+ul.tab-list {
+    border-bottom: 1px solid #e9e9e9;
+    margin: 0 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+ul.tab-list li {
+    display: inline-block;
+}
+
+ul.tab-list li a {
+    position: relative;
+    color: #666;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ul.tab-list  .active a {
+    color: #fc103c;
+}
+li.active a::after {
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 2px;
+    width: 100%;
+    content: "";
+    background: #fc103c;
+    z-index: 2;
+}
+    </style>
+</head>
+
+<body>
+    
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="custom-tab">
+                        <ul class="tab-list">
+                           <li class="active"><a data-bs-toggle="tab"  data-bs-target="#custom-tab-1" href="#custom-tab-1">Overview</a></li>
+                           <li><a data-toggle="tab" href="#custom-tab-2">Pricing</a></li>
+                           <li><a data-toggle="tab" href="#custom-tab-3">Locations</a></li>
+                           <li><a data-toggle="tab" href="#custom-tab-4">Reviews</a></li>
+                           <li><a data-toggle="tab" href="#custom-tab-5">Add Reviews</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <div id="custom-tab-1" class="tab-fade">
+                            <h2>Overview</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores ab placeat unde quisquam nemo illum, nobis beatae perspiciatis exercitationem aspernatur dicta cupiditate aliquam itaque voluptas minus minima voluptatibus repudiandae.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis natus accusamus animi ea alias, excepturi molestias quibusdam ratione, laudantium minus voluptas eum enim qui rem at quae odit consectetur, asperiores eveniet omnis exercitationem ab repellendus. Neque tempore reiciendis perspiciatis!</p>
+
+                            <ul>
+                               <li><a href=""></a>video</li>
+                               <li><a href=""></a>pictures</li>
+                            </ul>
+                        </div>
+
+                        <div id="custom-tab-2" class="tab-fade">
+                            <h2>Pricing</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores ab placeat unde quisquam nemo illum, nobis beatae perspiciatis exercitationem aspernatur dicta cupiditate aliquam itaque voluptas minus minima voluptatibus repudiandae.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis natus accusamus animi ea alias, excepturi molestias quibusdam ratione, laudantium minus voluptas eum enim qui rem at quae odit consectetur, asperiores eveniet omnis exercitationem ab repellendus. Neque tempore reiciendis perspiciatis!</p>
+
+                            <ul>
+                               <li><a href=""></a>video</li>
+                               <li><a href=""></a>pictures</li>
+                            </ul>
+                        </div>
+
+                        <div id="custom-tab-3" class="tab-fade">
+                            <h2>Locations</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores ab placeat unde quisquam nemo illum, nobis beatae perspiciatis exercitationem aspernatur dicta cupiditate aliquam itaque voluptas minus minima voluptatibus repudiandae.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis natus accusamus animi ea alias, excepturi molestias quibusdam ratione, laudantium minus voluptas eum enim qui rem at quae odit consectetur, asperiores eveniet omnis exercitationem ab repellendus. Neque tempore reiciendis perspiciatis!</p>
+
+                            <ul>
+                               <li><a href=""></a>video</li>
+                               <li><a href=""></a>pictures</li>
+                            </ul>
+                        </div>
+
+                        <div id="custom-tab-4" class="tab-fade">
+                            <h2>Reviews</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores ab placeat unde quisquam nemo illum, nobis beatae perspiciatis exercitationem aspernatur dicta cupiditate aliquam itaque voluptas minus minima voluptatibus repudiandae.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis natus accusamus animi ea alias, excepturi molestias quibusdam ratione, laudantium minus voluptas eum enim qui rem at quae odit consectetur, asperiores eveniet omnis exercitationem ab repellendus. Neque tempore reiciendis perspiciatis!</p>
+
+                            <ul>
+                               <li><a href=""></a>video</li>
+                               <li><a href=""></a>pictures</li>
+                            </ul>
+                        </div>
+
+                        <div id="custom-tab-5" class="tab-pane fade">
+                            <h2>Add Reviews</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores ab placeat unde quisquam nemo illum, nobis beatae perspiciatis exercitationem aspernatur dicta cupiditate aliquam itaque voluptas minus minima voluptatibus repudiandae.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis natus accusamus animi ea alias, excepturi molestias quibusdam ratione, laudantium minus voluptas eum enim qui rem at quae odit consectetur, asperiores eveniet omnis exercitationem ab repellendus. Neque tempore reiciendis perspiciatis!</p>
+
+                            <ul>
+                               <li><a href=""></a>video</li>
+                               <li><a href=""></a>pictures</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            // margin: 10,
+            nav: true,
+            items:1,
+            dot:true,
+            
+        })
+    </script> -->
+</body>
+</html>  
