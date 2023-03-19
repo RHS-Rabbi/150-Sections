@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 51</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <style>
+.bg-1{
+    background-image: url(Images/class50.jpg);
+}
+.bg-2{
+    background-image: url(Images/class50-2.jpg);
+}
+.bg-3{
+    background-image: url(Images/class50-3.jpg);
+}
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+}
+
+.row.no-padding .col-md-4 {
+    padding: 0;
+}
+
+.row.no-padding {
+    margin: 0;
+}
+
+.single-boxed-item {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+}
+
+.single-boxed-item.half-size {
+    height: 300px;
+}
+
+.boxed-item-hover {
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    width: 90%;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single-boxed-item:hover .boxed-item-hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.boxed-item-hover::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #333;
+    opacity: .7;
+    z-index: -1;
+}
+.boxed-item-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.boxed-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+i.fa-solid.fa-magnifying-glass {
+    color: green;
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>see our some tittan projects</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ullam asperiores provident impedit id eos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-padding">
+                <div class="col-md-4">
+                    <div class="single-boxed-item bg-1">
+                        <div class="boxed-item-hover">
+                            <div class="boxed-item-table">
+                                <div class="boxed-item-tablecell">
+                                    <a href="" class="large-img"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>catagory name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-boxed-item half-size bg-2">
+                        <div class="boxed-item-hover">
+                            <div class="boxed-item-table">
+                                <div class="boxed-item-tablecell">
+                                    <a href="" class="large-img"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>catagory name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-boxed-item half-size bg-2">
+                        <div class="boxed-item-hover">
+                            <div class="boxed-item-table">
+                                <div class="boxed-item-tablecell">
+                                    <a href="" class="large-img"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>catagory name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="single-boxed-item half-size bg-3">
+                        <div class="boxed-item-hover">
+                            <div class="boxed-item-table">
+                                <div class="boxed-item-tablecell">
+                                    <a href="" class="large-img"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>catagory name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-boxed-item half-size bg-3">
+                        <div class="boxed-item-hover">
+                            <div class="boxed-item-table">
+                                <div class="boxed-item-tablecell">
+                                    <a href="" class="large-img"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>catagory name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            items:3,
+            dot:true,
+            
+        })
+    </script> -->
+</body>
+</html>  
