@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 52</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+.service-box-bg-1{
+    background-image: url(images/class50.jpg);
+}
+.service-box-bg-2{
+    background-image: url(images/class50-2.jpg);
+}
+.service-box-bg-3{
+    background-image: url(images/class50-3.jpg);
+}
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #848484;
+}
+
+.section-title h2 {
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-title span {
+    color: #00c9cf;
+}
+
+.service-box-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    position: relative;
+    height: 250px;
+    z-index: 1;
+    /* border: 1px solid #e5e5e5; */
+    border-radius: 5px 5px 0px 0px;
+}
+.single-service-box i {
+    height: 70px;
+    width: 70px;
+    display: block;
+    font-size: 40px;
+    background: #25385b;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    margin-left: -35px;
+    /* margin-bottom: 20px; */
+    transition: .3s;
+}
+
+.single-service-box h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-top: 50px;
+}
+.single-service-box {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+.single-service-box:hover.single-service-box i{
+    background-color: #00c9cf;
+    border-color: #25385b;
+}
+.single-service-box h2:hover{
+    background-color: #25385b;
+    color: #fff;
+}      
+    </style>
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>Lorem ipsum <span>dolor sit amet.</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quisquam!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-service-box">
+                        <div class="service-box-bg service-box-bg-1">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <h2>Nutrology</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="single-service-box">
+                        <div class="service-box-bg service-box-bg-2">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h2>Nutrology</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="single-service-box">
+                        <div class="service-box-bg service-box-bg-3">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <h2>Nutrology</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            items:3,
+            dot:true,
+            
+        })
+    </script> -->
+</body>
+</html>  
