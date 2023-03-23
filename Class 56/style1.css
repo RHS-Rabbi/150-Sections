@@ -2,7 +2,6 @@ body.theme-1{
     background-image: url(images/class56.png);
     background-position: center center;
     background-size: cover;
-    position: relative;
 }
 
 
@@ -120,28 +119,3 @@ p.copyright-text {
 a{
     text-decoration: none;
 }
-
-/* theme-2 start */
-body.theme-2{
-    background: #6f8ea1;
-background: -moz-linear-gradient(left,  #6f8ea1 4%, #a17777 61%, #7db9e8 100%);
-background: -webkit-linear-gradient(left,  #6f8ea1 4%,#a17777 61%,#7db9e8 100%);
-background: linear-gradient(to right,  #6f8ea1 4%,#a17777 61%,#7db9e8 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f8ea1', endColorstr='#7db9e8',GradientType=1 );
-
-}
-.theme-2,.site-wrap {
-    background-image: url(Images/class56.png);
-    background-position: center center;
-    background-size: cover;
-    margin: 5%;
-}
-.theme-2,.header-area{
-    position: relative;
-}
-.theme-2,.footer-area{
-    position: relative;
-    margin-top: 50px;
-}
-
-/* theme-2 ends */
