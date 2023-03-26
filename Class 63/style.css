@@ -1,0 +1,47 @@
+.service-list {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.single-service-box {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.service-list .col-md-4 {
+    padding: 0;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.service-list .row {
+    margin: 0;
+}
+
+.single-service-box h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #535353;
+}
+
+.service-icon {
+    color: #e2e2e2;
+    font-size: 40px;
+    opacity: .5;
+}
+
+.single-service-box:hover {box-shadow: 0 0 50px #a8a8a8;}
+
+
+
+.single-service-box .service-icon:hover {
+    color: #cf1e18;
+    opacity: .9;
+}
