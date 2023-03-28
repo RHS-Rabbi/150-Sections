@@ -1,21 +1,19 @@
-$(document).ready(function() {
-
-
-    $(".project-filter li").on('click', function(){
-
-        $
-
-        var selector = $(this).attr("data-filter");
-        $(".project-list").isotope({
-            filter: selector,
-        });
-        
+$(document).ready(function () {
+    $('.project-list').isotope({
+        itemSelector: '.item-1',
+        layoutMode: 'fitRows'
     });
-   
-    $(".project-list").isotope();
+    })
 
+    $('.project-filter ul li').click(function () {
+    //ACTIVE CLASS
+    $('.project-filter ul li').removeClass('active');
+    $(this).addClass('active');
 
-});
-
-
+    var selector = $(this).attr('data-filter');
+    $('.project-list').isotope({
+    filter: selector
+    });
+    return false;
+})
 
