@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin: 50px;
+}
+
+p.counter-number {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.single-counter-box {
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+    </style>
+</head>
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="single-counter-box">
+                            <p class="counter-number"><span>100</span>%</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-counter-box">
+                            <p class="counter-number"><span>4542</span></p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-counter-box">
+                            <p class="counter-number"><span>544</span>+</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-counter-box">
+                            <p class="counter-number"><span>3442</span></p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+       jQuery(document).ready(function($) {
+        $('.counter-number span').counterUp({
+            delay: 10,
+            time: 1000
+        });
+        });
+    </script>
+</body>
+</html>
