@@ -1,0 +1,74 @@
+.welcome-area{
+    background-image: url(https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+
+html,body {
+    height: 100%;
+}
+
+.welcome-area {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.welcome-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #333;
+}
+
+.welcome-inner h2 {
+    font-size: 65px;
+}
+
+
+.welcome-inner p {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.email-subscribe-form {
+    width: 400px;
+    margin: 40px auto;
+}
+
+.email-subscribe-form input {
+    width: 100%;
+    border: none;
+    padding:15px;
+    border-radius: 40px;
+}
+
+input[type="submit"] {
+    background: #ffcb39;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+  li span {
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+}
