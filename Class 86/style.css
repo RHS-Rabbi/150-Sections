@@ -45,6 +45,7 @@ h2.special-section-title {
     padding: 40px 20px;
     margin-left: -200px;
     top: 30px;
+    color:#000
 }
 h2.special-section-title.right-side {
     position: relative;
@@ -55,6 +56,7 @@ h2.special-section-title.right-side {
     text-align: end;
     margin-right: 50px;
     top: 30px;
+    color:#000
 }
 body{
     font-size: 16px;
