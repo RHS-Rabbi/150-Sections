@@ -1,0 +1,30 @@
+.section-title {
+    margin-bottom: 50px;
+}
+
+.single-circle-progressbar {
+    text-align: center;
+}
+
+.circle-progress-wrap {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+span.progressbar-parcentage {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 0;
+}
+.single-circle-progressbar h3 {
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 20px;
+}
+.section-padding {
+    padding: 40px 0;
+}
