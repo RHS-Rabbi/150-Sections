@@ -1,0 +1,88 @@
+.carousel-bg-1{
+    background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-bg-2{
+    background-image: url(https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-bg-3{
+    background-image: url(https://images.pexels.com/photos/1403550/pexels-photo-1403550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+html, body{
+    height: 100%;
+}
+.single-carousel-item {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.carousel-item-tablecell {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}
+
+.carousel-item-tablecell h2 {
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 0;
+}
+a.border-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #d7095e;
+    padding: 8px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.owl-carousel, .owl-carousel div {
+    height: 100%;
+}
+.carousel-item-tablecell div {
+    height: auto;
+}
+
+.owl-carousel .owl-dots ,.owl-carousel .owl-nav{
+    height: auto;
+}
+
+.owl-nav {
+    font-size: 100px;
+    color: #fff;
+}
+
+button.owl-prev {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+}
+button.owl-next {
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+.owl-dot {
+    display: inline-block;
+}
+.owl-dots {
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+button {
+    background: no-repeat;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
