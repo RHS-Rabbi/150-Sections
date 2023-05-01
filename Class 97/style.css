@@ -1,0 +1,36 @@
+.section-padding {
+    padding: 90px 0;
+}
+
+.single-service-box {
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    color: black;
+    padding-top: 58px;
+
+}
+
+i.fa-solid {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #4fbf70;
+    color: #fff;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -35px;
+    top: -35px;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.single-service-box p{
+    margin: 0;
+}
