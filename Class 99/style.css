@@ -1,0 +1,60 @@
+.section-padding{
+    padding: 90px 0;
+}
+.service-box-bg {
+    background: #ddd;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+}
+.bg-1{
+    background-image: url(https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-2{
+    background-image: url(https://images.pexels.com/photos/6869130/pexels-photo-6869130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-3{
+    background-image: url(https://images.pexels.com/photos/3047413/pexels-photo-3047413.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+.service-box-inner {
+    border: 1px solid #efefef;
+    border-top: 0 solid;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.single-service-box {
+    position: relative;
+}
+
+.service-more-wrap {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+.service-box-inner h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p.meta-service {
+    font-size: 15px;
+    text-transform: uppercase;
+    opacity: .6;
+    margin: 0;
+}
+
+a.bordered-btn {
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #999;
+    border: 1px solid #ddd;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
