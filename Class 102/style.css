@@ -1,0 +1,82 @@
+body,h2 {
+    font-weight: 300;
+}
+.section-padding {
+    padding: 30px 0;
+}
+.section-title {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+.contact-us-form {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p.form-element {
+    position: relative;
+}
+
+p.form-element label {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.contact-us-form input[type=text],
+.contact-us-form input[type=email],
+.contact-us-form textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.contact-us-form input[type=text]:focus,
+.contact-us-form input[type=email]:focus,
+.contact-us-form textarea:focus {
+background-color: #f0f0f0;
+outline: none;
+}
+
+label {
+    font-weight: 700;
+    color: #6c6c6c;
+}
+.contact-us-form textarea {
+    max-height: 121px;
+}
+.contact-us-form input[type=submit] {
+    float: right;
+    background: #6d59b0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+p.small-text {
+    font-size: 15px;
+    margin: 0;
+    padding: 12px 0;
+}
+.section-padding {
+    padding: 30px 0;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    color: #626262;
+}
+
+.section-title p {
+    color: #a2a2a2;
+}
+
+.contact-us-form p {
+    color: #707070;
+}
