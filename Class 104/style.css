@@ -1,0 +1,123 @@
+.product-bg-1{
+    background-image: url(Images/class-103.avif);
+}
+.product-bg-2{
+    background-image: url(Images/class-103.2.avif);
+}
+.product-bg-3{
+    background-image: url(Images/class-103.3.avif);
+}
+.product-bg-4{
+    background-image: url(Images/class-103.4.avif);
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-padding {padding: 60px 0;}
+
+.product-bg {
+    background-size: cover;
+    background-position: center top;
+    height: 330px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+     width: 230px;
+}
+.ticker {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: #000;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+.ticker-green {
+    background-color: #2ab89d;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.ticker-red {
+    background-color: #f84f4c;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.product-bottom-hover {
+    position: absolute;
+    left: 40%;
+    margin-left: -50px;
+    background: #ffffff;
+    opacity: 0;
+    bottom: -14px;
+    transition: .3s;
+    visibility: hidden;
+}
+.single-product-box:hover .product-bottom-hover{
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+}
+.single-product-box .product-bottom-hover a:hover {
+    background: #000;
+    color: #fff;
+    height:46px;
+    border: none;
+    
+}
+.product-bottom-hover a {
+    display: block;
+    float: left;
+    width: 50px;
+    padding: 10px 10px;
+    border: 1px solid #eeeeee;
+    color: #333333;
+    text-align: center;
+}
+.single-product-box {
+    text-align: center;
+    width: 230px;
+}
+
+.single-product-box h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p.product-price {
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.owl-nav.disabled {
+    display: inline-block !important;
+}
+i.fa-solid.fa-angle-left,i.fa-solid.fa-angle-right {
+    width: 40px;
+    height: 40px;
+    background: #949494;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+button.owl-prev {
+    position: absolute;
+    left: -60px;
+    top: 35%;
+}
+button.owl-next {
+    position: absolute;
+    right: -60px;
+    top: 35%;
+}
