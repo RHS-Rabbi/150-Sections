@@ -1,0 +1,97 @@
+.section-padding{
+    padding: 80px 0;
+}
+.pricing-title-wrap{
+    background-image: url(https://images.pexels.com/photos/45900/landscape-scotland-isle-of-skye-old-man-of-storr-45900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.pricing-title-wrap {
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.pricing-title-wrap h2 {
+    font-weight: 300;
+    font-size: 50px;
+}
+.pricing-header {
+    background-color: #2a2f3a;
+    color: #61656e;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: table;
+}
+
+.pricing-list-wrap {
+    margin-top: -110px;
+}
+.pricing-header h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.pricing-heading-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.pricing-header {
+    background-color: #2a2f3a;
+    color: #61656e;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: table;
+}
+
+p.speacial-pricing-text {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #21252d;
+    padding: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 20px;
+    top: -48px;
+}
+.pricing-content {
+    padding: 30px;
+    font-size: 110%;
+}
+
+p.pricing-sub-title {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: #efefef;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p.pricing-note {
+    opacity: .7;
+    font-size: 70%;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.pricing-list-wrap {
+    margin-top: -110px;
+}
+
+.pricing-list-wrap .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.pricing-list-wrap .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
