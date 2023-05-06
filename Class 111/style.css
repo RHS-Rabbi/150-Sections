@@ -1,0 +1,136 @@
+.section-padding{
+    padding: 60px 0;
+}
+.portfolio-bg-1{
+    background-image: url(https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.portfolio-bg-2{
+    background-image: url(https://images.pexels.com/photos/158385/lake-mcdonald-landscape-panorama-sunset-158385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.portfolio-bg-3{
+    background-image: url(https://images.pexels.com/photos/3848158/pexels-photo-3848158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.portfolio-bg-4{
+    background-image: url(https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.portfolio-bg-5{
+    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.portfolio-bg-6{
+    background-image: url(https://images.pexels.com/photos/4638114/pexels-photo-4638114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+.portfolio-bg-7{
+    background-image: url(https://images.pexels.com/photos/23547/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600)
+}
+.portfolio-bg-8{
+    background-image: url(https://images.pexels.com/photos/361104/pexels-photo-361104.jpeg?auto=compress&cs=tinysrgb&w=600)
+}
+.portfolio-bg-9{
+    background-image: url(https://images.pexels.com/photos/3630026/pexels-photo-3630026.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load)
+}
+.single-portfolio-item::after {
+    background: #cbcbcb;
+    background: -moz-linear-gradient(top,  #cbcbcb 0%, #5c5b5d 100%);
+    background: -webkit-linear-gradient(top,  #cbcbcb 0%,#5c5b5d 100%);
+    background: linear-gradient(to bottom,  #cbcbcb 0%,#5c5b5d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcbcb', endColorstr='#5c5b5d',GradientType=0 );
+    transition: .50s;
+
+}
+.portfolio-list{
+    overflow: hidden;
+}
+.single-portfolio-item {
+    float: left;
+    /* width: 33.3333%; */
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    z-index: 2;
+}
+
+.large-bg {
+    height: 626px;
+    width: 100%;
+}
+.portfolio-hover {
+    padding: 20px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    bottom: -50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .50s;
+}
+.single-portfolio-item:hover .portfolio-hover{
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
+
+.portfolio-hover h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.single-portfolio-item:hover::after {
+    opacity: .8;
+}
+.single-portfolio-item::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: #000; */
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+}
+
+.project-filter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 50px;
+}
+
+.project-filter li a {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.project-filter li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.project-filter li::after{
+    content: "/";
+    padding-left: 20px;
+}
+.project-filter li:last-child::after {
+    display: none;
+}
+
+    
+.col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.project-filter {
+    text-align: left;
+}
+.project-filter .active  a {
+    color: red;
+}
+
+
