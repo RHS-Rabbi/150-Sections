@@ -1,0 +1,87 @@
+.section-padding {
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+.section-bg{
+    background-image: url(https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+}
+.bg-1{
+    background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-2{
+    background-image: url(https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-3{
+    background-image: url(https://images.pexels.com/photos/2080960/pexels-photo-2080960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-4{
+    background-image: url(https://images.pexels.com/photos/3629227/pexels-photo-3629227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-5{
+    background-image: url(https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-6{
+    background-image: url(https://images.pexels.com/photos/2994160/pexels-photo-2994160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-7{
+    background-image: url(https://images.pexels.com/photos/2909083/pexels-photo-2909083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bg-8{
+    background-image: url(https://images.pexels.com/photos/2902376/pexels-photo-2902376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+
+.service-box-wrap {
+    display: table;
+}
+
+.sectton-overlay::after,.single-service-box::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #f2af00;
+    z-index: -1;
+    opacity: .8;
+}
+
+.single-service-box {
+    display: table;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    background-size: 150%;
+    background-position: center;
+    background-color: #ddd;
+    transition: .50s;
+}
+.single-service-box:hover{
+    background-size: 200%;
+}
+.single-service-box:hover::after{
+    opacity: .1;
+}
+a:hover{
+    text-decoration: none;
+}
+.service-box-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.service-box-wrap h2{
+    color: #fff;
+}
+.single-service-box::after{
+    background-color: #004f7d;
+}
