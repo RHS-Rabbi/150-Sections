@@ -1,0 +1,23 @@
+table.schedule th {
+    background: #f0f0f0;
+    text-transform: capitalize;
+    /* padding: 22px; */
+    font-size: 22px;
+    font-weight: 500;
+}
+
+table.schedule {
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.schedule th, .schedule td {
+    border-left: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    padding: 20px;
+}
+table.schedule td h4 {
+    font-size: 23px;
+    color: #575757;
+}
