@@ -1,0 +1,80 @@
+.section-padding{
+    height: 80px;
+    background-color: #2196f3;
+}
+.user-photos {
+    width: 98%;
+    height: 98%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.border-full-area {
+    box-shadow: 0 0 3px #ddd;
+    display: block;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+ul.hero-border {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul.hero-border li {
+    display: inline-block;
+}
+
+ul.hero-border li a {
+    display: block;
+    padding-left: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: #51b3f7;
+    line-height: 50px;
+    padding-right: 30px;
+}
+
+.user-photo {
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+ul.hero-border {
+    box-shadow: 0 0 10px #bfbfbf;
+    display: block;
+    margin-left: 10px;
+}
+.hero {
+    display: block;
+    box-shadow: 0 0 10px #ddd;
+    margin-top: 8px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.hero div {
+    padding: 5px 46px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hero div {
+    padding: 5px 46px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    background: #2196f3;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
