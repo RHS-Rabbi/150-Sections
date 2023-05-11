@@ -1,0 +1,91 @@
+
+.mainmenu {
+    text-align: end;
+    position: relative;
+}
+
+.mainmenu ul {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    padding-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+span.hero-d {
+    position: absolute;
+    top: 38px;
+    width: 35px;
+    height: 2px;
+    content: "";
+    background: #09af93;
+    right: 100px;
+}
+.mainmenu li a.left-padding {
+    display: block;
+    padding-left: 60px;
+}
+.section-logo img {
+    width: 10%;
+    height: 10%;
+    display: block;
+    padding-top: 10px;
+}
+body,html{
+    height: 100%;
+    background: rgb(165,72,255);
+    background: -moz-linear-gradient(top,  rgba(165,72,255,1) 0%, rgba(137,54,255,1) 50%, rgba(113,45,255,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(165,72,255,1) 0%,rgba(137,54,255,1) 50%,rgba(113,45,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(165,72,255,1) 0%,rgba(137,54,255,1) 50%,rgba(113,45,255,1) 100%);
+}
+.section-title {
+    padding-top: 70px;
+}
+
+.section-title h1 {font-weight: 700;font-size: 55px;color: #fff;}
+
+.section-title p {
+    color: #ddd;
+}
+.border-button {
+    position: relative;
+}
+
+a.boxed-btn {
+    position: absolute;
+    top: 130px;
+    border: 2px solid #ddd;
+    padding: 15px 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+    right: -100px;
+}
+.icon-list {
+    color: #efe1ff;
+    opacity: .5;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.single-service-item h4 {
+    font-size: 18px;
+    color: #efe1ff;
+    padding-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.single-service-item p {
+    color: #efe1ff;
+    opacity: .7;
+}
