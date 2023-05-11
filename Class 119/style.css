@@ -1,0 +1,61 @@
+.section-padding {
+    padding: 50px 0;
+}
+
+.mainmenu ul {
+    list-style: none;
+}
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu li a {
+    font-size: 25px;
+    display: block;
+    padding-left: 25px;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+.mainmenu li ul {
+    position: absolute;
+    left: -55px;
+    width: 250px;
+    background: #000;
+    color: #fff;
+    padding: 15px 0px;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 20px;
+    transition: .3s;
+}
+.mainmenu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+}
+.mainmenu li ul li a{
+    color: #fff;
+}
+.mainmenu ul li ul li {
+    display: block;
+}
+
+.mainmenu ul li ul li a {
+    padding: 15px 15px;
+    color: #999;
+}
+.mainmenu li:hover li:hover > a {
+    color: #fff;
+    background-color: #232856;
+}
+
+.mainmenu.effect-2 li:hover ul {
+    transform: skew(0deg);
+
+}
+.mainmenu.effect-2 li ul{
+    transform: skew(20deg);
+    transition: .3s;
+}
