@@ -1,0 +1,325 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0 0 15px; */
+    font-weight: 700;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.portfolio-bg-1{
+    background-image: url(https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.portfolio-bg-2{
+    background-image: url(https://images.pexels.com/photos/3573603/pexels-photo-3573603.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+.portfolio-bg-3{
+    background-image: url(https://images.pexels.com/photos/3374205/pexels-photo-3374205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-4{
+    background-image: url(https://images.pexels.com/photos/1819662/pexels-photo-1819662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-5{
+    background-image: url(https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-6{
+    background-image: url(https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-7{
+    background-image: url(https://images.pexels.com/photos/2693529/pexels-photo-2693529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-8{
+    background-image: url(https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-9{
+    background-image: url(https://images.pexels.com/photos/3224156/pexels-photo-3224156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-10{
+    background-image: url(https://images.pexels.com/photos/4215113/pexels-photo-4215113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.portfolio-bg-11{
+    background-image: url(https://images.pexels.com/photos/4318822/pexels-photo-4318822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+
+.off-menu-canvas-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.off-menu-canvas-overlay.active{
+    opacity: .2;
+    visibility: visible;
+}
+
+/* offcanvas start */
+.offcanvas-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.menu-item-wrap {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.menu-item-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 207px;
+}
+
+.offcanvas-menu li a {
+    color: #4fc5ff;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.offcanvas-menu {
+    position: fixed;
+    right: -40%;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    z-index: 99;
+    background: #fff;
+    padding: 40px;
+    transition: .4s;
+}
+.offcanvas-menu.active{
+    right: 0;
+}
+
+.menu-bottom-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    bottom: 70px;
+    left: 60px;
+    max-width: 315px;
+}
+
+.offcanvas-boxed-text {
+    background: #efedff;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.social-icon a {
+    color: #b9aec5;
+    font-size: 24px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.social-icon {
+    margin-top: 18px;
+}
+span.menu-close {
+    position: absolute;
+    right: 0;
+    border-left: 1px solid #ddd;
+    height: 100%;
+    width: 70px;
+    top: 0;
+    cursor: pointer;
+}
+
+i.fa {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    margin-top: -20px;
+    cursor: pointer;
+    font-weight: 900;
+}
+/* offcanvas end */
+
+
+/* header-area start */
+.logo a {
+    color: #6247da;
+    text-decoration: none;
+}
+
+.logo h2 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+}
+
+.logo h2 span {
+    font-size: 12px;
+    position: absolute;
+    right: -12px;
+}
+.menu-trigger span {
+    display: block;
+    height: 2px;
+    width: auto;
+    background: #6247da;
+    transition: .3s;
+}
+.menu-trigger:hover span:nth-child(1),
+.menu-trigger:hover span:nth-child(3){
+    margin: 0px 5px;
+}
+.menu-trigger span:nth-child(2) {
+    margin: 7px 0px;
+}
+
+.menu-trigger {
+    display: inline-block;
+    width: 35px;
+}
+.header-area {
+    padding: 40px 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+}
+/* header-area end */
+
+/* portfolio-start end */
+.portfolio-list {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 274px;
+}
+
+.single-portfolio-item {
+    float: left;
+    width: 25%;
+    height: 330px;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    transition: .50s;
+}
+
+.portfolio-hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transition: .50s;
+}
+
+.portfolio-hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.portfolio-hover h2 {
+    font-size: 25px;
+}
+
+.portfolio-hover p {
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .5;
+    font-size: 15px;
+}
+
+.portfolio-hover p:hover {
+    opacity: 1;
+}
+
+.single-portfolio-item:hover .portfolio-hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.single-portfolio-item:hover {
+    background-size: 228%;
+}
+
+
+.single-portfolio-item.long {
+    height: 660px;
+}
+
+.single-portfolio-item.boxed {
+    height: 660px;
+    width: 50%;
+}
+.portfolio-list{
+    overflow: hidden;
+}
+
+/* portfolio-end */
+
+/* footer-area start */
+.footer-area {
+    background: #6247da;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    padding: 70px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+} 
+.footer-area ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-area a {
+    color: #fff;
+    opacity: .7;
+    text-decoration: none;
+}
+
+.footer-area h2 a {
+    opacity: 1;
+}
+
+.footer-area p {
+    opacity: .8;
+}
+h2.footer-logo {
+    position: relative;
+    font-size: 22px;
+    display: inline-block;
+    text-transform: uppercase;
+} 
+
+h2.footer-logo span {
+    position: absolute;
+    top: 2px;
+    font-size: 10px;
+    right: -12px;
+}
+
+ /* .footer-area h2 {
+    font-size: 22px;
+}  */
+/* footer-area end */
