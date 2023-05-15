@@ -51,11 +51,18 @@ ul.hero-border {
     margin-left: 10px;
 }
 .hero {
-    display: block;
+    display: table;
     box-shadow: 0 0 10px #ddd;
     margin-top: 30px;
     padding-left: 10px;
     margin-left: 10px;
+    margin-bottom: 30px;
+    width: 95%;
+    height: 40%;
+}
+form {
+    vertical-align: middle;
+    display: table-cell;
 }
 .hero div {
     padding: 5px 46px;
@@ -82,4 +89,34 @@ a.boxed-btn {
 .user-photos img {
     width: 100%;
     height: auto;
+}
+button.btn {
+    display: flow-root;
+    margin-left: 80px;
+    margin-top: 0px;
+    color: #fff;
+}
+.btn-1 {
+    border: none;
+    background: #2196f3;
+    color: #fff;
+    display: inline-block;
+    margin-left: 12px;
+    padding: 10px 15px;
+}
+.btn-2 {
+    display: inline-block;
+    padding: 10px 25px;
+    border: none;
+    background: #2196F6;
+    margin-left: 65px;
+    color: #fff;
+}
+button.btn-boxed {
+    border: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 65px;
+    background: #2196f3;
+    color: #fff;
 }
