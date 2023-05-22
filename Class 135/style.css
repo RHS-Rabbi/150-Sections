@@ -1,0 +1,66 @@
+.section-bg-1{
+    background-image: url(https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.section-padding{
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+.section-overlay-blue {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    content: "";
+    background: #308ece;
+    z-index: -1;
+    opacity: .8;
+}
+.section-overlay-black {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .7;
+}
+.single-service-box{
+    position: relative;
+    z-index: 1;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+.single-service-box .fa-regular {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 25px;
+}
+.section-title h2{
+    position: relative;
+    margin-bottom: 30px;
+}
+.section-title h2::after {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    height: 2px;
+    content: "";
+    background: #367fb0;
+    bottom: -25px;
+}
+body {
+    line-height: 1.7;
+    font-size: 15px;
+}
+.section-info p {
+    padding-top: 22px;
+    margin-bottom: 0;
+}
