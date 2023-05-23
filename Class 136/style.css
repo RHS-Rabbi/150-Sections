@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+body{
+    font-family: 'Vidaloka', serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.section-padding{
+    padding: 30px 0;
+}
+.section-title h3 {
+    font-size: 40px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    margin-top: 75px;
+
+}
+a.boxed-btn {
+    background: #c7a05b;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 20px;
+}
+.bordered-img {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 80px;
+}
+.bg{
+    background: #ddd;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+.left-side-bg {
+    margin-right: 50px;
+    margin-left: -80px;
+}
+.right-side-bg {
+    margin-right: -50px;
+    margin-left: 0px;
+}
+.section-title p {
+    color: #bdbdbd;
+    font-size: 15px;
+}
+.section-bg-1{
+    background-image: url(https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.section-bg-2{
+    background-image: url(https://images.pexels.com/photos/3571551/pexels-photo-3571551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.bordered-img::after {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #c7a05b;
+    content: "";
+    z-index: -2;
+}
+
